@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username: "
+        android:textSize="18sp"
+        android:layout_below="@id/tv_profile"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textSize="18sp"
+        android:layout_below="@id/tv_username"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tv_fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name: "
+        android:textSize="18sp"
+        android:layout_below="@id/tv_email"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tv_lname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name: "
+        android:textSize="18sp"
+        android:layout_below="@id/tv_fname"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_below="@id/tv_lname"
+        android:layout_marginTop="32dp" />
+</RelativeLayout>
